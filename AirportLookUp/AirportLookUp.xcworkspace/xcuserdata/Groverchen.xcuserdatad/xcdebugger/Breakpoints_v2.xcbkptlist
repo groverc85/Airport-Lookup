@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirportLookUp/MapViewController.swift"
+            timestampString = "514605218.460899"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
+            landmarkName = "mapViewDidFinishLoadingMap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirportLookUp.MapViewController.mapViewDidFinishLoadingMap (__ObjC.MGLMapView) -&gt; ()"
+                  moduleName = "AirportLookUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Groverchen/Downloads/DevChallenge_Jiongjian/AirportLookUp/AirportLookUp/MapViewController.swift"
+                  timestampString = "514523485.590903"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "16420">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AirportLookUp.MapViewController.mapViewDidFinishLoadingMap (__ObjC.MGLMapView) -&gt; ()"
+                  moduleName = "AirportLookUp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Groverchen/Downloads/DevChallenge_Jiongjian/AirportLookUp/AirportLookUp/MapViewController.swift"
+                  timestampString = "514523485.593237"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "16508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AirportLookUp/MapViewController.swift"
+            timestampString = "514605218.460899"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "mapView(_:annotationCanShowCallout:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

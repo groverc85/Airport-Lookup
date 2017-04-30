@@ -1,0 +1,6 @@
+framework module Pods_AirportLookUpTests {
+  umbrella header "Pods-AirportLookUpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

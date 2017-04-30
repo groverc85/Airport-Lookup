@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.4.0)
+  - BWWalkthrough (2.1.0)
+  - Mapbox-iOS-SDK (3.4.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - BWWalkthrough
+  - Mapbox-iOS-SDK
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  BWWalkthrough: 188408f55b951725ccfd4faa8dab5c577b57c7a9
+  Mapbox-iOS-SDK: d2c567fee32d316044ec925c8bcfb74a92d57ec9
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: a3eecc823f943ffe1a91eacc8ba81c0a0ec95ce7
+
+COCOAPODS: 1.2.0

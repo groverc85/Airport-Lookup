@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "07A447D8D9E4C1136ACE3A3E6BF13B90DBA1BF25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "66CAF4BE54D7A05A446DB7E5365B7F922B439993" : 9223372036854775807,
+    "07A447D8D9E4C1136ACE3A3E6BF13B90DBA1BF25" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "98AE1623-A2FB-4B98-B142-356D151C4243",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "66CAF4BE54D7A05A446DB7E5365B7F922B439993" : "DevChallenge_Jiongjian\/AirportLookUp\/AirportLookUp\/story\/",
+    "07A447D8D9E4C1136ACE3A3E6BF13B90DBA1BF25" : "DevChallenge_Jiongjian\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AirportLookUp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AirportLookUp\/AirportLookUp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lexieernst\/DevChallenge_Jiongjian.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "07A447D8D9E4C1136ACE3A3E6BF13B90DBA1BF25"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.heroku.com\/jiongjian-chen-website.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66CAF4BE54D7A05A446DB7E5365B7F922B439993"
+    }
+  ]
+}

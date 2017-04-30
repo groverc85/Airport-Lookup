@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zGv-o1-YC3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Airport View Controller-->
+        <scene sceneID="uAZ-KH-Q3M">
+            <objects>
+                <viewController id="8HF-by-gIq" customClass="AirportViewController" customModule="AirportLookUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Jb-uy-Sxp"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Oq-E7-kHp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R5a-1O-0Xj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZF-9A-kxt">
+                                <rect key="frame" x="22" y="20" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Name" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4Z-rE-VuO" userLabel="Name">
+                                <rect key="frame" x="0.0" y="58" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cqM-bP-WFe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Coordinate" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2z0-ff-vjR" userLabel="Coord">
+                                <rect key="frame" x="0.0" y="174" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4JI-Oa-yYe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Location" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEY-JT-bKw" userLabel="Location">
+                                <rect key="frame" x="0.0" y="232" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jEe-tR-kaB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Type" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEf-Vb-qVv" userLabel="Type">
+                                <rect key="frame" x="0.0" y="290" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gSb-LL-BRq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleToFill" keyboardDisplayRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cn0-XH-GfK" userLabel="My Webview">
+                                <rect key="frame" x="0.0" y="348" width="375" height="319"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="GPS" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JV-eY-b2O" userLabel="GPS">
+                                <rect key="frame" x="0.0" y="116" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AQ5-w8-2Ce"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a4Z-rE-VuO" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="3TY-hy-HHK"/>
+                            <constraint firstItem="Cn0-XH-GfK" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="7XQ-lQ-Hta"/>
+                            <constraint firstItem="wEY-JT-bKw" firstAttribute="top" secondItem="2z0-ff-vjR" secondAttribute="bottom" constant="8" id="9hd-2E-H2g"/>
+                            <constraint firstItem="fEf-Vb-qVv" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="EwP-e2-duZ"/>
+                            <constraint firstItem="Cn0-XH-GfK" firstAttribute="top" secondItem="fEf-Vb-qVv" secondAttribute="bottom" constant="8" id="GA0-f9-XhK"/>
+                            <constraint firstItem="a4Z-rE-VuO" firstAttribute="top" secondItem="2Jb-uy-Sxp" secondAttribute="bottom" constant="38" id="Jdj-hM-8d5"/>
+                            <constraint firstItem="wEY-JT-bKw" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="LZ8-Fn-lZD"/>
+                            <constraint firstItem="fEf-Vb-qVv" firstAttribute="top" secondItem="wEY-JT-bKw" secondAttribute="bottom" constant="8" id="Mna-v1-6Yr"/>
+                            <constraint firstItem="a4Z-rE-VuO" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="RmS-8R-Svd"/>
+                            <constraint firstItem="2z0-ff-vjR" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="UO6-X7-hgS"/>
+                            <constraint firstItem="wEY-JT-bKw" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="VXX-E1-B4O"/>
+                            <constraint firstItem="1JV-eY-b2O" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="euQ-84-nWL"/>
+                            <constraint firstItem="fEf-Vb-qVv" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="hed-SE-OjG"/>
+                            <constraint firstItem="Cn0-XH-GfK" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="p05-o6-FCH"/>
+                            <constraint firstItem="2z0-ff-vjR" firstAttribute="width" secondItem="R5a-1O-0Xj" secondAttribute="width" id="rTT-uf-kDE"/>
+                            <constraint firstItem="2z0-ff-vjR" firstAttribute="top" secondItem="1JV-eY-b2O" secondAttribute="bottom" constant="8" id="stl-A9-vae"/>
+                            <constraint firstItem="1JV-eY-b2O" firstAttribute="centerX" secondItem="R5a-1O-0Xj" secondAttribute="centerX" id="szv-JR-Z13"/>
+                            <constraint firstItem="8Oq-E7-kHp" firstAttribute="top" secondItem="Cn0-XH-GfK" secondAttribute="bottom" id="tAd-fP-PzZ"/>
+                            <constraint firstItem="1JV-eY-b2O" firstAttribute="top" secondItem="a4Z-rE-VuO" secondAttribute="bottom" constant="8" id="xo1-ke-WGs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1qj-ON-6s9"/>
+                    <connections>
+                        <outlet property="back" destination="8ZF-9A-kxt" id="t07-G4-VN6"/>
+                        <outlet property="coord" destination="2z0-ff-vjR" id="qnS-rs-tBY"/>
+                        <outlet property="gps" destination="1JV-eY-b2O" id="83T-Os-6Je"/>
+                        <outlet property="location" destination="wEY-JT-bKw" id="XKb-tV-Rvl"/>
+                        <outlet property="myWebview" destination="Cn0-XH-GfK" id="Q9t-qJ-mBI"/>
+                        <outlet property="name" destination="a4Z-rE-VuO" id="uWp-Qi-GpN"/>
+                        <outlet property="type" destination="fEf-Vb-qVv" id="M5j-Xm-YzJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNb-65-ULd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="743" y="-61"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GM5-jR-0kZ">
+            <objects>
+                <navigationController id="zGv-o1-YC3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="DWF-QL-eAI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tRX-wQ-WIn" kind="relationship" relationship="rootViewController" id="FV0-Qt-nZ0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ant-BA-Of8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1354" y="36"/>
+        </scene>
+        <!--My location-->
+        <scene sceneID="YU7-01-pnt">
+            <objects>
+                <viewController id="tRX-wQ-WIn" customClass="MapViewController" customModule="AirportLookUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EOZ-tU-Fru"/>
+                        <viewControllerLayoutGuide type="bottom" id="DGk-k3-LTP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sw9-ZZ-neD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpM-WT-QHY" customClass="MGLMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleURL__" value="mapbox://styles/mapbox/streets-v9"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsUserLocation" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKC-ti-b2u">
+                                <rect key="frame" x="306" y="604" width="53" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="53" id="dKI-t1-asK"/>
+                                    <constraint firstAttribute="height" constant="55" id="sCB-ay-CJK"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="track"/>
+                                <connections>
+                                    <action selector="centerUserButton:" destination="tRX-wQ-WIn" eventType="touchUpInside" id="ce7-UD-wrP"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v0g-Wr-efr" userLabel="Story">
+                                <rect key="frame" x="0.0" y="120" width="375" height="547"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                            </webView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Current location" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYU-8G-ppM" userLabel="Location">
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Xga-JR-aAJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Closest airport:" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cli-cb-JDE" userLabel="AirportLocation">
+                                <rect key="frame" x="0.0" y="94" width="375" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xlR-hf-wAg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="DGk-k3-LTP" firstAttribute="top" secondItem="WpM-WT-QHY" secondAttribute="bottom" id="1PC-1c-0Lp"/>
+                            <constraint firstItem="DGk-k3-LTP" firstAttribute="top" secondItem="zKC-ti-b2u" secondAttribute="bottom" constant="8" id="Aan-5w-Kip"/>
+                            <constraint firstItem="WpM-WT-QHY" firstAttribute="top" secondItem="EOZ-tU-Fru" secondAttribute="bottom" id="PB3-ar-mu1"/>
+                            <constraint firstItem="WpM-WT-QHY" firstAttribute="width" secondItem="Sw9-ZZ-neD" secondAttribute="width" id="RWA-i1-G4z"/>
+                            <constraint firstItem="cli-cb-JDE" firstAttribute="width" secondItem="Sw9-ZZ-neD" secondAttribute="width" id="RoT-kw-YEY"/>
+                            <constraint firstItem="mYU-8G-ppM" firstAttribute="top" secondItem="EOZ-tU-Fru" secondAttribute="bottom" id="Tay-cr-xYy"/>
+                            <constraint firstItem="mYU-8G-ppM" firstAttribute="width" secondItem="Sw9-ZZ-neD" secondAttribute="width" id="Tn2-mX-BDD"/>
+                            <constraint firstItem="WpM-WT-QHY" firstAttribute="centerX" secondItem="Sw9-ZZ-neD" secondAttribute="centerX" id="V9I-Pi-n4j"/>
+                            <constraint firstItem="cli-cb-JDE" firstAttribute="top" secondItem="mYU-8G-ppM" secondAttribute="bottom" id="Vpm-9I-RT3"/>
+                            <constraint firstItem="mYU-8G-ppM" firstAttribute="centerX" secondItem="Sw9-ZZ-neD" secondAttribute="centerX" id="omG-ez-cvB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zKC-ti-b2u" secondAttribute="trailing" id="pYz-tO-5pe"/>
+                            <constraint firstItem="cli-cb-JDE" firstAttribute="centerX" secondItem="Sw9-ZZ-neD" secondAttribute="centerX" id="z1Y-L7-56s"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="My location" id="936-q4-6qJ">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="QXi-4y-l7s">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mLC-0f-W8u">
+                                <rect key="frame" x="16" y="7" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Tutorial"/>
+                                <connections>
+                                    <action selector="showWalkThrough:" destination="tRX-wQ-WIn" eventType="touchUpInside" id="Nv7-xE-Mgl"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ctq-1z-JoO">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ajf-on-9Iv">
+                                <rect key="frame" x="302" y="7" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enough!"/>
+                                <connections>
+                                    <action selector="closeStory:" destination="tRX-wQ-WIn" eventType="touchUpInside" id="FZm-me-aaB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="airportLocationText" destination="cli-cb-JDE" id="5hV-5h-rRX"/>
+                        <outlet property="close" destination="Ajf-on-9Iv" id="Ocy-tU-dp4"/>
+                        <outlet property="locationText" destination="mYU-8G-ppM" id="uHh-p1-swQ"/>
+                        <outlet property="mapView" destination="WpM-WT-QHY" id="WuZ-2I-3gM"/>
+                        <outlet property="resetButton" destination="zKC-ti-b2u" id="kQf-fq-lYb"/>
+                        <outlet property="stroyWebview" destination="v0g-Wr-efr" id="6ac-O6-cbi"/>
+                        <segue destination="8HF-by-gIq" kind="presentation" identifier="showDetails" modalTransitionStyle="flipHorizontal" id="0u1-J2-aPu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vYA-tv-vhe" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383.19999999999999" y="7.6461769115442282"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="track" width="175" height="181"/>
+    </resources>
+</document>
